@@ -3,7 +3,7 @@ import { useState,useEffect } from 'react';
 import { Container,Row } from 'react-bootstrap';
 import { Document,Page,pdfjs } from 'react-pdf';
 import { AiOutlineDownload } from "react-icons/ai";
-import pdf from '../../assets/Resume.pdf';
+import pdf from '../../assets/My Resume.pdf';
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 const onlinepdf='https://drive.google.com/file/d/1dnxfm_6lFfOWWj89nqj85JmhZ8JxMTTG/view?usp=sharing'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
