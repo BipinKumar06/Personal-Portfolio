@@ -5,7 +5,7 @@ import { Document,Page,pdfjs } from 'react-pdf';
 import { AiOutlineDownload } from "react-icons/ai";
 import pdf from '../../assets/Resume.pdf';
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-const onlinepdf='https://drive.google.com/file/d/11hYuFjcYyg-0Q3E6NRRnscvej_spRlVt/view?usp=drivesdk'
+const onlinepdf='https://drive.google.com/file/d/1dnxfm_6lFfOWWj89nqj85JmhZ8JxMTTG/view?usp=sharing'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function Resume() {
