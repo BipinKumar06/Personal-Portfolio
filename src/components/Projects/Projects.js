@@ -7,6 +7,7 @@ import drumkit from '../../assets/drumkit.png'
 import calc from '../../assets/calc.png'
 import tiktak from '../../assets/tiktak.png'
 import sorting from '../../assets/sorting.png'
+import mng from '../../assets/frontview.jpg'
 function Projects() {
   return (
     <div>
@@ -19,6 +20,15 @@ function Projects() {
       Here are a few projects that I'have worked on recently
     </h5>
   <Row className="pt-5"style={{justifyContent:"center",paddingBottom:"10px"}}>
+    <Col md={4} className="project-card"  style={{background:"inherit",maxWidth:"300px",borderRadius:"20px",marginRight:"30px",marginBottom:"30px"}}>
+    <Projectcards imgPath={mng}
+    title="Attendence Management System"
+    isBlog={false}
+    description="A hostel application management web app to track students where they are,and note the attendance of students according to room Number"
+    ghlink="https://github.com/BipinKumar06/attendance_mangement_system"
+    demolink="https://attendancemanagementsystem.cyclic.app/"
+    />
+  </Col>
   <Col md={4} className="project-card"  style={{background:"inherit",maxWidth:"300px",borderRadius:"20px",marginRight:"30px",marginBottom:"30px"}}>
     <Projectcards imgPath={sorting}
     title="Sorting Visualizer"
@@ -26,15 +36,6 @@ function Projects() {
     description="A Web Tool which help to use the visualizing the various method of Sorting Algorithm"
     ghlink="https://github.com/BipinKumar06/Sorting_Visualizer"
     demolink="https://bipinkumar06.github.io/Sorting_Visualizer/"
-    />
-  </Col>
-  <Col md={4} className="project-card"  style={{background:"inherit",maxWidth:"300px",borderRadius:"20px",marginRight:"30px",marginBottom:"30px"}}>
-    <Projectcards imgPath={tiktak}
-    title="Tik Tak Toe"
-    isBlog={false}
-    description="Website having tic-tak-toe game"
-    ghlink="https://github.com/BipinKumar06/Tik-Tac_toe-Game"
-    demolink="https://bipinkumar06.github.io/Tik-Tac_toe-Game/"
     />
   </Col>
   <Col md={4} className="project-card"  style={{background:"inherit",maxWidth:"300px",borderRadius:"20px",marginRight:"30px",marginBottom:"30px"}}>
@@ -71,6 +72,15 @@ function Projects() {
     description="Website having calculator with simpler functions"
     ghlink="https://github.com/BipinKumar06/Basic-Calculator"
     demolink="https://bipinkumar06.github.io/Basic-Calculator/"
+    />
+  </Col>
+      <Col md={4} className="project-card"  style={{background:"inherit",maxWidth:"300px",borderRadius:"20px",marginRight:"30px",marginBottom:"30px"}}>
+    <Projectcards imgPath={tiktak}
+    title="Tik Tak Toe"
+    isBlog={false}
+    description="Website having tic-tak-toe game"
+    ghlink="https://github.com/BipinKumar06/Tik-Tac_toe-Game"
+    demolink="https://bipinkumar06.github.io/Tik-Tac_toe-Game/"
     />
   </Col>
   </Row>
