@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import portfolio from "../../assets/portfolio.png";
 import Projectcards from "./Projectcards";
 import weather from "../../assets/weather.png";
 import drumkit from "../../assets/drumkit.png";
@@ -106,26 +105,6 @@ function Projects() {
                 description="Website based on the beats of drums"
                 ghlink="https://github.com/BipinKumar06/Drum-kit"
                 demolink="https://bipinkumar06.github.io/Drum-kit/"
-              />
-            </Col>
-            <Col
-              md={4}
-              className="project-card"
-              style={{
-                background: "inherit",
-                maxWidth: "300px",
-                borderRadius: "20px",
-                marginRight: "30px",
-                marginBottom: "30px",
-              }}
-            >
-              <Projectcards
-                imgPath={portfolio}
-                title="Basic Portfolio"
-                isBlog={false}
-                description="My Static Porfolio build in may 2021"
-                ghlink="https://github.com/BipinKumar06/Portfolio"
-                demolink=" https://bipinkumar06.github.io/Portfolio/"
               />
             </Col>
             <Col
