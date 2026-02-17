@@ -7,7 +7,6 @@ import '../node_modules/bootstrap-dark-5/dist/css/bootstrap-dark.min.css'
 import { BrowserRouter as Router,Routes,Route,Navigate} from 'react-router-dom';
 import { About } from './components/About/About';
 import Projects from './components/Projects/Projects';
-import Resume from './components/Resume/Resume'
 import { Footer } from './components/Footer';
 function App() {
   return (
