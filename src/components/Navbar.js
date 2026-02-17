@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import { MdOutlineContactPage } from "react-icons/md";
 import { ImHome } from "react-icons/im";
 import { BsFillPersonFill } from "react-icons/bs";
 import { AiOutlineFundProjectionScreen} from "react-icons/ai";
@@ -24,9 +23,6 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link className="text-white nav-link" to="/projects"><AiOutlineFundProjectionScreen/>&nbsp;Projects</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="text-white nav-link" to="/resume"><MdOutlineContactPage/>&nbsp;Resume</Link>
           </li>
         </ul>
       </div>
