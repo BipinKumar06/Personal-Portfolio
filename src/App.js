@@ -20,7 +20,6 @@ function App() {
       <Route path='/home' element={<App/>}/>
        <Route path='/about' element={<About/>}/>
        <Route path='/projects' element={<Projects/>}/>
-       <Route path='/resume' element={<Resume/>}/>
        <Route path="*" element={<Navigate to="/"/>} />
       </Routes>
       <Footer/>
